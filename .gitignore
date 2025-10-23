@@ -1,6 +1,69 @@
+# Neovim specific
+.lsp/
+.nvim/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Plugin manager files
+lazy-lock.json
+packer_compiled.lua
+
+# Language server data
+jdtls/
+.metadata/
+.project
+.classpath
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Session files
+Session.vim
+Sessionx.vim
+
+# Undo files
+*.un~
+
+# Swap files
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if using any Node-based plugins)
+node_modules/
+
+# Python cache (if using Python-based plugins)
+__pycache__/
+*.pyc
+
+# Compiled files
+*.o
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+
+# Local configuration overrides
+local.lua
+local/
+
+# Legacy entries (keeping your existing ones)
 tags
 test.sh
 .luarc.json
 nvim
-
 spell/
