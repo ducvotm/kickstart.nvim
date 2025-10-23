@@ -10,6 +10,25 @@ A starting point for Neovim that is:
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
+## Quick Start for Java Developers
+
+This configuration includes comprehensive documentation for Java and Spring Boot development:
+
+- **[VIM_TIPS.md](./VIM_TIPS.md)** - Essential Vim productivity techniques and workflows
+- **[KEYMAPS.md](./KEYMAPS.md)** - Quick reference for all keybindings
+- **[JAVA_SETUP.md](./JAVA_SETUP.md)** - Complete Java/Spring Boot LSP setup guide
+- **[CUSTOM_FUNCTIONS.md](./CUSTOM_FUNCTIONS.md)** - Custom Lua functions for enhanced productivity
+
+### Most Useful Tips for Daily Work
+
+1. **Error Navigation**: `]d` / `[d` to jump between errors, `<leader>e` to see full error message
+2. **File Navigation**: `<leader>ff` to find files, `<leader>fg` to grep content, `<leader>fb` for recent buffers
+3. **LSP Features**: `gd` (definition), `gi` (implementation), `gr` (references), `K` (hover docs)
+4. **Code Actions**: `<leader>ca` for quick fixes and imports, `<leader>rn` to rename symbols
+5. **Terminal**: `<leader>tt` for floating terminal toggle
+
+Start with [VIM_TIPS.md](./VIM_TIPS.md) for detailed explanations and use cases.
+
 ## Installation
 
 ### Install Neovim
